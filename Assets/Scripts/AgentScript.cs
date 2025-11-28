@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class AgentScript : MonoBehaviour
 {
     [SerializeField] Transform[] patrolPoints; // puntos de patrulla
-    [SerializeField] float pointReachedThreshold = 0.5f; // distancia minima para considerar que llego
+    [SerializeField] float pointReachedThreshold = 0.3f; // distancia minima para considerar que llego
     private int currentPointIndex = 0;
     private NavMeshAgent agent;
     private Animator anim;
